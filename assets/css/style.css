@@ -18,4 +18,16 @@ nav {
 nav a {
     text-decoration: none;
     color: #76323f;
+    padding: 0 10px;
+}
+
+.about img {
+    max-width: 300px;
+    height: auto;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
 }
