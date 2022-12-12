@@ -1,3 +1,21 @@
 body {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+header {
+    background-color: #a9a9a9;
+    color: #76323f;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    color: #76323f;
 }
