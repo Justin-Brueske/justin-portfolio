@@ -1,3 +1,8 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
 body {
     display: flex;
     flex-wrap: wrap;
@@ -21,13 +26,70 @@ nav a {
     padding: 0 10px;
 }
 
-.about img {
-    max-width: 300px;
-    height: auto;
-}
-
 .about {
     display: flex;
     flex-direction: row;
-    margin: 10px;
+    gap: 10px;
+}
+
+.aboutimg {
+    flex-basis: 30%;
+    width: 100%;
+    height: auto;
+}
+
+.about p {
+    flex-basis: 65%;
+}
+
+.work {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* flex-basis: 50%; */
+}
+
+.feature {
+    flex-basis: 50%;
+}
+
+/* .feature img {
+    width: 100%;
+    height: auto;
+} */
+
+.small {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.projects {
+    flex-basis: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .projects img {
+    width: 100%;
+    height: auto;
+} */
+
+@media screen and (max-width: 768px) {
+    .work {
+        flex-direction: column;
+    }
+    .small {
+        row-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .about {
+        flex-direction: column;
+    }
+    
 }
