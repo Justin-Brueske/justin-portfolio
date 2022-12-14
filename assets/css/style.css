@@ -53,10 +53,9 @@ nav a {
     flex-basis: 50%;
 }
 
-/* .feature img {
-    width: 100%;
-    height: auto;
-} */
+.feature img:hover {
+    opacity: .5;
+}
 
 .small {
     display: flex;
@@ -73,10 +72,21 @@ nav a {
     justify-content: center;
     align-items: center;
 }
-/* .projects img {
-    width: 100%;
-    height: auto;
-} */
+.projects img:hover {
+    opacity: .5;
+}
+
+footer {
+    background-color: #a9a9a9;
+    color: #76323f;
+}
+
+.contact ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
 
 @media screen and (max-width: 768px) {
     .work {
