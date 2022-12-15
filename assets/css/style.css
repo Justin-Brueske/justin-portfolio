@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -24,6 +28,13 @@ nav a {
     text-decoration: none;
     color: #76323f;
     padding: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: darkblue;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .about {
@@ -46,7 +57,6 @@ nav a {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    /* flex-basis: 50%; */
 }
 
 .feature {
@@ -86,6 +96,23 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     text-decoration: none;
+}
+
+.contact li {
+    list-style: none;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #76323f;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    color: darkblue;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {
