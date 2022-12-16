@@ -16,10 +16,10 @@ This was a project to create a portfolio page that showcases an About Me section
 
 [Code Repository](https://github.com/Justin-Brueske/justin-portfolio)
 
-[Deployed Site](#)
+[Deployed Site](https://justin-brueske.github.io/justin-portfolio/)
 
 ## Usage
 
 Can be viewed on a desktop or mobile web browser.
 
-![screenshot of index.html](./assets/images/screenshot.png)
+![screenshot of index.html](./assets/images/portfolio.jpg)
