@@ -115,6 +115,18 @@ footer {
     text-decoration: underline;
 }
 
+.container {
+    position: relative;
+    text-align: center;
+}
+.bottom-left {
+    color: white;
+    background-color: black;
+    position: absolute;
+    bottom: 8px;
+    left: 12px;
+}
+
 @media screen and (max-width: 768px) {
     .work {
         flex-direction: column;
